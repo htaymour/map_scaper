@@ -1,0 +1,38 @@
+
+Map Report Generator
+Description
+    The map report generator is a tool for easy access to mobile provider information by saving map screenshots with signal levels that are related to certain address or coordinates and saved to excel sheet file as a report with all information.
+The aim is to ease the access to this signalling information with an automated tool that could take much longer time if done manually.
+Testing
+    The tool has been tested at many sites in the USA and has proved to be accurate apart from mobile provider signal strength tolerance or map accuracy. The mobile provider maps are based on google maps. The tool uses API access to GeocodeFarm to convert address to coordinates and vice versa which has proven to be very accurate.
+Visuals
+    The application uses GUI interface as below to ease access for it. The main application file to open the GUI access is called mapgen.exe
+
+ 
+
+Installation and requirements
+The below are requirements for the application to run correctly prior to installation on windows 10 platform:
+-	Update of google chrome browser installed on windows (build Version 80.0.3987.132) . 
+-	Update of Firefox installed on windows (build version 68.5.0esr). 
+-	The file named Chromedriver.exe which can be downloaded from the link : 
+https://chromedriver.chromium.org/downloads   (build version ChromeDriver 2.35.528161) 
+
+-	The file named geckodriver.exe which can be downloaded from the link : 
+https://github.com/mozilla/geckodriver   (build version geckodriver 0.19.0) 
+
+-	All the application files should be installed in the same directory as along with the chromedriver and the geckodriver.
+The application files are packed in compressed file (.rar) which can be extracted to any directory along with the two files specified above.
+
+Usage
+    Using the application is very simple. Double click on the application icon or run the application from the file Mapgen.exe by typing on command line terminal and wait for the GUI to appear. You can then enter the address in the address field or coordinated (latitude and longitude) in their place on the application. Please use only one of the two options, if both are entered, priority is given to address as the search criteria. 
+    A black screen will appear with the GUI application. This screen is for logs and for further information showing. There is no need to worry about the terminal black screen in case of normal operation. For troubleshooting or further info finding it’s recommended to keep a copy of the terminal screen for error troubleshooting.
+    After and address or coordinates are entered, Chose the included reporting type that you would like to have with the checkboxes indicated on the application and press the generate map button. After you will see different browsers open in new windows that are searching for information. Please do not interact with these browsers and wait till the browsers finish and close before making any more changes on the application. You can still proceed with use of any other window running on the background. Once the browsers finish depending on the testing time an excel sheet will open automatically which has the report generated. If the excel sheet does not open automatically you can open manually by finding the excel filename that appear on terminal screen. It’s recommended to close the sheet if the same address exactly will be used again to fetch information. 
+Support
+   For Further support and troubleshooting, please report problem description along with copy of the terminal screen in case of error to the author of this document via email:  Haytham.taymour@gmail.com . It’s always recommended to try many times before an issue is considered a reported problem.
+Roadmap
+    Follow up for future recommendations, updated versions or bug fixes.
+Contributing
+I’m always flexible to any changes. My contact is found above for any changes required.
+Authors and acknowledgment
+Thanks to all who contributed to make this project.
+
